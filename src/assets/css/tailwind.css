@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply bg-[color:var(--background-primary)] text-[color:var(--color-base)] text-[0.938rem];
+}
+
+.shadow-box {
+    box-shadow: var(--box-shadow);
+}
