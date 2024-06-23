@@ -161,7 +161,7 @@ export const topics = [
         title: 'Türkiye tarihinde gündemde',
         topic: {
             type: 'tag',
-            value: 'dilanpolat'
+            value: 'Tesla'
         }
     },
     {
@@ -176,7 +176,7 @@ export const topics = [
         title: 'Türkiye tarihinde gündemde',
         topic: {
             type: 'tag',
-            value: 'dilanpolat'
+            value: 'Tesla'
         }
     },
     {
@@ -191,7 +191,7 @@ export const topics = [
         title: 'Türkiye tarihinde gündemde',
         topic: {
             type: 'tag',
-            value: 'dilanpolat'
+            value: 'Tesla'
         }
     },
     {
@@ -206,7 +206,7 @@ export const topics = [
         title: 'Türkiye tarihinde gündemde',
         topic: {
             type: 'tag',
-            value: 'dilanpolat'
+            value: 'Tesla'
         }
     },
     {
@@ -216,7 +216,7 @@ export const topics = [
             value: 'Starlink'
         },
         postCount: 15640
-    }
+    },
 ]
 
 export const colors = [

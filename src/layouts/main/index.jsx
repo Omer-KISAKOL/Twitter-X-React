@@ -36,13 +36,10 @@ function MainLayout() {
         <div className="flex justify-center ">
             <div className="lg:mx-36 flex xl:w-[1265px] lg:w-[1050px] md:w-[790px] sm:w-[650px] w-[350px]">
                 <SideBar/>
-                <main className="flex-1 flex gap-[30px]">
-                    <main className="flex-1 border-x border-[#2f3336]">
-                        <Outlet/>
-                    </main>
-                    <RightBar/>
+                <main className="flex border-x border-[#2f3336] max-w-[600px] w-[100%]">
+                    <Outlet/>
                 </main>
-
+                <RightBar/>
             </div>
         </div>
     )
