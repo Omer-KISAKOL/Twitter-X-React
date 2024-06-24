@@ -1,15 +1,14 @@
 import {Outlet} from "react-router-dom";
-import SideBar from "~/layouts/main/sidebar";
+import Sidebar from "~/layouts/main/sidebar";
 import RightBar from "~/layouts/main/rightbar";
-// import {useModal} from "~/store/modal/hooks";
-// import Modal from "~/modals";
+import {useModal} from "~/store/modal/hooks";
+import Modal from "~/modals";
 import {useEffect} from "react";
 import {useAppearance} from "~/store/appearance/hooks";
 
+export default function MainLayout() {
 
-function MainLayout() {
-
-    // const modal = useModal()
+    const modal = useModal()
     const appearance = useAppearance()
 
     useEffect(() => {
@@ -32,16 +31,16 @@ function MainLayout() {
 
     }, [appearance])
 
-    return(
-        <div className="flex justify-center ">
-            <div className="lg:mx-36 flex xl:w-[1265px] lg:w-[1050px] md:w-[790px] sm:w-[650px] w-[350px]">
-                <SideBar/>
-                <main className="flex border-x border-[#2f3336] max-w-[600px] w-[100%]">
+    return (
+        <div className="w-[1265px] mx-auto flex">
+            {modal && <Modal />}
+            <Sidebar/>
+            <main className="flex-1 flex gap-[30px]">
+                <main className="flex-1 max-w-[600px] border-x border-[color:var(--background-third)]">
                     <Outlet/>
                 </main>
                 <RightBar/>
-            </div>
+            </main>
         </div>
     )
 }
-export default MainLayout;

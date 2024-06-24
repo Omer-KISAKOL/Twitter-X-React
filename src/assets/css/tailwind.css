@@ -3,10 +3,36 @@
 @tailwind utilities;
 
 
+:root {
+    font-size: var(--font-size);
+}
+
 body {
     @apply bg-[color:var(--background-primary)] text-[color:var(--color-base)] text-[0.938rem];
 }
 
 .shadow-box {
     box-shadow: var(--box-shadow);
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #9e9e9e #000000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #9e9e9e;
+    border-radius: 18px;
+    border: 1px solid #ffffff;
 }

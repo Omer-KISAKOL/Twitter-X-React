@@ -1,9 +1,11 @@
 import {configureStore} from "@reduxjs/toolkit";
 import appearance from "~/store/appearance";
+import modal from "~/store/modal";
 
 const store = configureStore({
     reducer: {
-        appearance,
+        modal,
+        appearance
     }
 })
 

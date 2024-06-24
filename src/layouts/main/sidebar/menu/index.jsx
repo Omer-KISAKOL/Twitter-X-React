@@ -18,15 +18,16 @@ function Menu() {
 
                             <div className="w-[1.641rem] h-[1.641rem] relative">
                                 {menu?.notification && (
-                                    <span className="w-[1.125rem] h-[1.125rem] rounded-full bg-[#1d9bf0] absolute -top-1.5 -right-1 flex items-center justify-center text-[0.688rem]">
-                                        {menu?.notification}
-                                    </span>
+                                    <span
+                                        className="w-[1.125rem] h-[1.125rem] rounded-full bg-[color:var(--color-primary)] text-white border border-[color:var(--background-primary)] absolute -top-1.5 -right-1 flex items-center justify-center text-[0.688rem]">
+										{menu?.notification}
+									</span>
                                 )}
                                 {!isActive && menu.icon.passive}
                                 {isActive && menu.icon.active}
                             </div>
                             <div className="pr-4 text-xl">
-                                {menu.title}
+                            {menu.title}
                             </div>
                         </div>
                     )}
