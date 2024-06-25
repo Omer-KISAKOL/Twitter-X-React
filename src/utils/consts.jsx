@@ -187,7 +187,7 @@ export const topics = [
         title: 'Türkiye tarihinde gündemde',
         topic: {
             type: 'tag',
-            value: 'dilanpolat'
+            value: 'Tesla'
         }
     },
     {
@@ -202,7 +202,7 @@ export const topics = [
         title: 'Türkiye tarihinde gündemde',
         topic: {
             type: 'tag',
-            value: 'dilanpolat'
+            value: 'Tesla'
         }
     },
     {
@@ -217,7 +217,7 @@ export const topics = [
         title: 'Türkiye tarihinde gündemde',
         topic: {
             type: 'tag',
-            value: 'dilanpolat'
+            value: 'Tesla'
         }
     },
     {
@@ -232,7 +232,7 @@ export const topics = [
         title: 'Türkiye tarihinde gündemde',
         topic: {
             type: 'tag',
-            value: 'dilanpolat'
+            value: 'Tesla'
         }
     },
     {
