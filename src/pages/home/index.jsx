@@ -1,5 +1,6 @@
 import Tab from "~/components/tab/index.jsx";
 import StickyHeader from "~/components/sticky-header/index.jsx";
+import ForYou from "~/pages/home/for-you/index.jsx";
 
 function Home() {
     return(
@@ -18,9 +19,7 @@ function Home() {
                 </StickyHeader>
 
                 <Tab.Content id={"for-you"}>
-                    <div className="text-3xl text-red-600 font-bold flex items-center justify-center min-h-screen w-[100%]">
-                        For you
-                    </div>
+                        <ForYou/>
                 </Tab.Content>
                 <Tab.Content id={"followings"}>
                     <div className="text-3xl text-red-600 font-bold flex items-center justify-center min-h-screen w-[100%]">
