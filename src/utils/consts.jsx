@@ -48,7 +48,7 @@ export const mainMenu = [
     {
         path: '/notifications',
         title: 'Bildirimler',
-        notification: 2,
+        notification: 1,
         icon: {
             active: (
                 <svg viewBox="0 0 24 24" className="h-[1.641rem]">
