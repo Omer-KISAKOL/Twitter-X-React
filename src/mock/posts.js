@@ -26,7 +26,7 @@ Bu anket ders esnasında sorulmuştur.`,
             ]
         },
         account: {
-            avatar: 'https://pbs.twimg.com/profile_images/1200814302820753410/AhAh3xlU_400x400.png',
+            avatar: 'https://picsum.photos/400/250',
             username: 'prototurkcom',
             fullName: './prototurk'
         },
@@ -42,10 +42,10 @@ Bu anket ders esnasında sorulmuştur.`,
         type: 'photo',
         content: `Toplu günaydın, ben her sabah spora devam ama her gün post atmıyorum artık, max 4 günde bir atarım çünkü en fazla 4 foto paylaşılıyormuş 🤣`,
         photos: [
-            'https://pbs.twimg.com/media/F7VBIvaW0AIZyiX?format=jpg&name=large'
+            'https://picsum.photos/400/250'
         ],
         account: {
-            avatar: 'https://pbs.twimg.com/profile_images/1665642354009677824/LNZo7V8x_400x400.jpg',
+            avatar: 'https://picsum.photos/400/250',
             username: 'tayfunerbilen',
             fullName: 'Tayfun Erbilen'
         },
@@ -61,11 +61,11 @@ Bu anket ders esnasında sorulmuştur.`,
         type: 'photo',
         content: `Imagination Land!`,
         photos: [
-            'https://pbs.twimg.com/media/F7ZIK8KWgAAP8pH?format=jpg&name=900x900',
-            'https://pbs.twimg.com/media/F7VBIvZXEAAIpEM?format=jpg&name=large'
+            'https://picsum.photos/400/250',
+            'https://picsum.photos/400/250'
         ],
         account: {
-            avatar: 'https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_400x400.jpg',
+            avatar: 'https://picsum.photos/400/250',
             username: 'elonmusk',
             fullName: 'Elon Musk',
             verified: true
@@ -87,7 +87,7 @@ And people have been busy executing god-like tasks.
 
 (29th is my favorite)`,
         account: {
-            avatar: 'https://pbs.twimg.com/profile_images/1696215555148046336/xCMn27ZY_400x400.jpg',
+            avatar: 'https://picsum.photos/400/250',
             username: 'sairahul1',
             fullName: 'Sai Rahul',
             verified: true
@@ -104,12 +104,12 @@ And people have been busy executing god-like tasks.
         type: 'photo',
         content: `İstanbul'da Cumhuriyet'in 100. yılına özel, 100 gün boyunca Yerebatan Sarnıcı, Şerefiye Sarnıcı, Miniatürk ve Panorama 1453 Tarih Müzesi ücretsiz ziyaret edilebilecek.`,
         photos: [
-            'https://pbs.twimg.com/media/F7bpqaKXkAAopDd?format=jpg&name=900x900',
-            'https://pbs.twimg.com/media/F7bptMoXYAA7TpB?format=jpg&name=900x900',
-            'https://pbs.twimg.com/media/F8tfk2JWwAAlY3f?format=jpg&name=large'
+            'https://picsum.photos/400/250',
+            'https://picsum.photos/400/250',
+            'https://picsum.photos/400/250'
         ],
         account: {
-            avatar: 'https://pbs.twimg.com/profile_images/1707827931895017472/1-bUbTT3_400x400.jpg',
+            avatar: 'https://picsum.photos/400/250',
             username: 'Darkwebhaber',
             fullName: 'DarkWeb Haber'
         },
@@ -131,13 +131,13 @@ This prompt is going viral- mimicking a creepy iPhone capture that looks insanel
 
 Prompt in ALT tag + more examples in thread:`,
         photos: [
-            'https://pbs.twimg.com/media/F7aKxHhaAAAnHlS?format=jpg&name=large',
-            'https://pbs.twimg.com/media/F7VBIvaW0AAyXEr?format=jpg&name=large',
-            'https://pbs.twimg.com/media/F7VBIvaWAAAWUsx?format=jpg&name=large',
-            'https://pbs.twimg.com/media/F7VBIvaWAAAWUsx?format=jpg&name=large',
+            'https://picsum.photos/400/250',
+            'https://picsum.photos/400/250',
+            'https://picsum.photos/400/250',
+            'https://picsum.photos/400/250',
         ],
         account: {
-            avatar: 'https://pbs.twimg.com/profile_images/1617700070710992896/pF3T_gMB_400x400.jpg',
+            avatar: 'https://picsum.photos/400/250',
             username: 'rowancheung',
             fullName: 'Rowan Cheung',
             verified: true

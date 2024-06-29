@@ -2,7 +2,7 @@ export default function Photo({photos}) {
     switch (photos.length) {
         case 1:
             return(
-                <div className="mt-3">
+                <div className="mt-3 flex justify-center items-center">
                     <img src={photos[0]} alt="" className="border max-h-[510px] object-cover border-[color:var(--background-third)] rounded-2xl"/>
                 </div>
             )

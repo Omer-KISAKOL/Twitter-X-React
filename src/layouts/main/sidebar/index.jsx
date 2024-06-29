@@ -4,7 +4,7 @@ import Menu from "~/layouts/main/sidebar/menu";
 function SideBar() {
     return(
         <aside className="max-w-[275px] w-[100%] min-h-screen flex flex-col px-2">
-            <div className="sticky top-0 ">
+            <div className="sticky top-0 z-10 ">
                 <Logo/>
                 <Menu/>
             </div>
