@@ -2,7 +2,7 @@ export const posts = [
     {
         id: '1708632465282150796',
         type: 'poll',
-        content: `PROTOTURK'un paylaştığı videoları seviyor musunuz?
+        content: `Kraft'ın paylaştığı videoları seviyor musunuz?
 Bu anket ders esnasında sorulmuştur.`,
         poll: {
             voted: false,
@@ -27,8 +27,8 @@ Bu anket ders esnasında sorulmuştur.`,
         },
         account: {
             avatar: 'https://picsum.photos/400/250',
-            username: 'prototurkcom',
-            fullName: './prototurk'
+            username: 'Kraftcom',
+            fullName: './Kraft'
         },
         stats: {
             comments: 43535,
@@ -46,8 +46,8 @@ Bu anket ders esnasında sorulmuştur.`,
         ],
         account: {
             avatar: 'https://picsum.photos/400/250',
-            username: 'tayfunerbilen',
-            fullName: 'Tayfun Erbilen'
+            username: 'okisakol',
+            fullName: 'Ömer KISAKOL'
         },
         stats: {
             comments: 43535,
